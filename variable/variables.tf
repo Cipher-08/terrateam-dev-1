@@ -3,14 +3,14 @@ variable "aws_access_key" {
   description = "AWS Access Key"
   type        = string
   sensitive   = true
-  default = 
+  default = AKIAZQ3DQ4GWU6N36OOS
 }
 
 variable "aws_secret_key" {
   description = "AWS Secret Key"
   type        = string
   sensitive   = true
-  default = 
+  default = ttTWQKkbKJJMQAQ2Ufktf6OPqu27wMfMp+Rpig8G
 
 }
 
