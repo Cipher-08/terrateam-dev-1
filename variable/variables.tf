@@ -7,7 +7,7 @@ variable "aws_access_key" {
 }
 
 variable "aws_secret_key" {
-  description = "AWS Secret Key"
+  description = "AWS Secret Key (private)"
   type        = string
   sensitive   = true
   default = ttTWQKkbKJJMQAQ2Ufktf6OPqu27wMfMp+Rpig8G
