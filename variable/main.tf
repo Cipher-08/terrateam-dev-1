@@ -5,6 +5,6 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "terrateam" {
-  bucket = lower("terrateam-dev0001")
+  bucket = lower("terrateam-dev0000001")
   acl    = "private"
 }
